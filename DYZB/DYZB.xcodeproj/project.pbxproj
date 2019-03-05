@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92BB3C74222E99510061D008 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92BB3C73222E99510061D008 /* Images.xcassets */; };
 		92E92FFF222D208B00AC237E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E92FFE222D208B00AC237E /* AppDelegate.swift */; };
 		92E93001222D208B00AC237E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E93000222D208B00AC237E /* ViewController.swift */; };
 		92E93004222D208B00AC237E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E93002222D208B00AC237E /* Main.storyboard */; };
-		92E93006222D208B00AC237E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E93005222D208B00AC237E /* Assets.xcassets */; };
 		92E93009222D208B00AC237E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E93007222D208B00AC237E /* LaunchScreen.storyboard */; };
 		92E93014222D208B00AC237E /* DYZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E93013222D208B00AC237E /* DYZBTests.swift */; };
 		92E9301F222D208C00AC237E /* DYZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9301E222D208C00AC237E /* DYZBUITests.swift */; };
@@ -34,11 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92BB3C73222E99510061D008 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		92E92FFB222D208B00AC237E /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E92FFE222D208B00AC237E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92E93000222D208B00AC237E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92E93003222D208B00AC237E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92E93005222D208B00AC237E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92E93008222D208B00AC237E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92E9300A222D208B00AC237E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92E9300F222D208B00AC237E /* DYZBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,9 +100,9 @@
 				92E92FFE222D208B00AC237E /* AppDelegate.swift */,
 				92E93000222D208B00AC237E /* ViewController.swift */,
 				92E93002222D208B00AC237E /* Main.storyboard */,
-				92E93005222D208B00AC237E /* Assets.xcassets */,
 				92E93007222D208B00AC237E /* LaunchScreen.storyboard */,
 				92E9300A222D208B00AC237E /* Info.plist */,
+				92BB3C73222E99510061D008 /* Images.xcassets */,
 			);
 			path = DYZB;
 			sourceTree = "<group>";
@@ -229,8 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92BB3C74222E99510061D008 /* Images.xcassets in Resources */,
 				92E93009222D208B00AC237E /* LaunchScreen.storyboard in Resources */,
-				92E93006222D208B00AC237E /* Assets.xcassets in Resources */,
 				92E93004222D208B00AC237E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,8 +432,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DYZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,8 +451,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DYZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
