@@ -30,7 +30,7 @@
         <scene sceneID="Epl-h8-VVR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BgE-4l-jDg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" image="1" id="vMe-io-mCh"/>
+                    <tabBarItem key="tabBarItem" title="首页" image="5" id="vMe-io-mCh"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="d4a-jo-wIf">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -47,6 +47,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1" width="36" height="36"/>
+        <image name="5" width="24.377952575683594" height="36"/>
     </resources>
 </document>
